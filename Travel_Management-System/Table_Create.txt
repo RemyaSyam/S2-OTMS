@@ -1,0 +1,24 @@
+
+
+		create  table Users
+		(User_Id int NOT NULL,
+		Pwd varchar(max),
+		Role varchar(max),
+		PRIMARY KEY (User_Id))
+
+		create table Trip_Details
+		(Trip_ID int NOT NULL,
+		Trip_Name varchar(max),
+		 Place_From varchar(max),
+		 Place_To varchar(max),
+		 Duration varchar(max),
+		 Fare int,
+		 Description varchar(max),
+		 PRIMARY KEY (Trip_ID)
+)
+select * from Users
+select * from Trip_Details
+
+--drop table Users
+--drop table Trip_detAILS
+--drop DataBase OTMS_API
